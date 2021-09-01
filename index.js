@@ -10,7 +10,7 @@ const app = express();  /** Express server */
  * In the function body a response using res.send() is created to send back to the request;
  */
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({ hey: 'foo' });
 });
 
 /** Express tells Node to listen to port 5000 for any incoming traffic. */
